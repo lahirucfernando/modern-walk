@@ -1,7 +1,7 @@
 <template>
   <v-row :class="['card-list', { 'full-page': isFullPage }]">
-    <v-col v-for="product in list" :key="product.id" class="d-flex ma-2">
-      <Card :product="product" />
+    <v-col v-for="product in list" :key="product.id" class="d-flex ma-2 mb-0">
+      <ProductCard :product="product" />
     </v-col>
   </v-row>
 </template>

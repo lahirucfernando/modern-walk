@@ -1,7 +1,7 @@
 <template>
   <v-container class="main-container fill-height">
     <v-row>
-      <v-col cols="co-12 pb-0">
+      <v-col cols="co-12">
         <div class="section-title">
           {{ isMensClothing ? "Men's Clothing" : "Women's Clothing" }}
         </div>

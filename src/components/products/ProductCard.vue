@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="product-card mx-auto my-4"
+    class="product-card mx-auto"
     :class="isMenCloth ? 'men-cloth-card' : 'women-cloth-card'"
   >
     <v-card-title class="title-style"> 
@@ -110,12 +110,12 @@ export default {
 
   /* Styles for men's clothing */
   &.men-cloth-card .description-section {
-    background-color: $green;
+    background-color: $mens-color;
   }
 
   /* Styles for women's clothing */
   &.women-cloth-card .description-section {
-    background-color: $red;
+    background-color: $womans-color;
   }
 }
 </style>

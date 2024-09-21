@@ -1,12 +1,10 @@
 <template>
-  <v-container class="main-container fill-height">
     <v-row>
-      <v-col cols="co-12 pb-0">
+      <v-col cols="12">
         <div class="section-title">Flash Sale</div>
       </v-col>
     </v-row>
     <ProductList :list="list"/>
-  </v-container>
 </template>
 
 <script>
