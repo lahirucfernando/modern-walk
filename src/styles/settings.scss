@@ -8,3 +8,22 @@
 // @use 'vuetify/settings' with (
 //   $color-pack: false
 // );
+
+.main-container {
+  max-width: 80%;
+  margin-top: 15px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 10px;
+}
