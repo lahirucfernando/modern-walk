@@ -4,7 +4,11 @@
       class="category-card"
       :class="isMensCategory ? 'mens-category-card' : 'womans-category-card'"
     >
-      <v-card-title class="title">{{ category }}</v-card-title>
+      <v-card-title class="title">
+        <router-link :to="isMensCategory ? '/mens-clothing' : '/womans-clothing'" class="text-decoration-none">
+          {{ category }}
+        </router-link>
+       </v-card-title>
     </v-card>
   </v-col>
 </template>
